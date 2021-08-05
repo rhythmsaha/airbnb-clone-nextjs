@@ -8,7 +8,7 @@ import SmallCard from "../components/SmallCard";
 
 export default function Home({ exploreData, cardsData }) {
     return (
-        <div className="">
+        <>
             <Head>
                 <title>airbnb clone</title>
                 <link
@@ -62,7 +62,7 @@ export default function Home({ exploreData, cardsData }) {
             <footer>
                 <Footer />
             </footer>
-        </div>
+        </>
     );
 }
 
