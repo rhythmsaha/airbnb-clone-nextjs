@@ -68,7 +68,7 @@ export default function Home({ exploreData, cardsData }) {
 
 // static ssr
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
     const exploreData = await fetch("https://links.papareact.com/pyp").then(
         (res) => res.json()
     );
