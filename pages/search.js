@@ -15,7 +15,7 @@ function Search({ searchResults }) {
     const range = `${formattedStartDate} - ${formattedEndDate}`;
 
     return (
-        <div>
+        <>
             <Header
                 placeholder={`${location} | ${range} | ${numberOfGuests}`}
             />
@@ -65,7 +65,7 @@ function Search({ searchResults }) {
             </main>
 
             <Footer />
-        </div>
+        </>
     );
 }
 
